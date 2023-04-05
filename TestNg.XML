@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+  <test name="Regression1">
+    <classes>
+      <class name="CartTestWithAnnotations"/>
+      <class name="HomeTest"/>
+      <class name="LoginTest"/>
+      <class name="ParallelTest"/>
+      <class name="PrescriptionTest"/>
+      <class name="ServicesTest"/>
+      <class name="TestLogin"/>
+    </classes>
+  </test>
+</suite>
